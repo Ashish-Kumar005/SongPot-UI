@@ -1,0 +1,56 @@
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 12px;
+  position: fixed;
+  z-index: 10;
+  background: transparent;
+  margin-top: 20px;
+  height: 92px;
+}
+
+.header .header-logo{
+  margin-left: 70px;
+}
+
+
+.navBar {
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.navLinks {
+  display: flex;
+  width: 70%;
+  justify-content: space-between;
+}
+
+.navLinks li{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.navLinks li a {
+  font-family: "Berlin Sans FB";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  color: #ffffff;
+}
+
+.contactBtn {
+  font-family: "Berlin Sans FB";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  background: #f8be17;
+  color: #ffffff;
+  padding: 12px 30px;
+}
