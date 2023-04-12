@@ -1,0 +1,26 @@
+.section1 {
+  background: url("../assets/About/abstract-illustration-with-colorful-glowing-neon-lights-great-backgrounds-wallpapers\ 1.png")
+    no-repeat center/cover;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.section1-heading {
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section1 h1 {
+  font-family: "Berlin Sans FB";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 78px;
+  color: #fff;
+  text-transform: capitalize;
+}

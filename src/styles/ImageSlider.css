@@ -1,0 +1,103 @@
+.carousel-container {
+    height: 600px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    box-shadow: inset 0 0 50rem 50rem rgba(0, 0, 0, .5);
+  }
+  
+  .carousel-width-container{
+    width: 60%;
+    cursor: grab;
+  }
+  
+  .carousel-text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    color: #fff;
+    width: 50%;
+    padding: 0 30px;
+    gap: 20px;
+    /* animation: fadeIn 1.25s; */
+  }
+  
+  .carousel-heading {
+    font-family: "Berlin Sans FB";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    text-transform: capitalize;
+  }
+  
+  .carousel-text-middle-container{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      align-items: flex-start;
+      gap: 20px;
+  }
+  .carousel-ul-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 15px;
+  }
+  
+  .carousel-li-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .carousel-li-icon{
+    width: 20px !important;
+  }
+  
+  .carousel-li-text {
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+  }
+  
+  .carousel-para {
+    font-family: "Berlin Sans FB";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: left;
+  }
+  
+  .coming-soon-btn {
+    position: static;
+    background-color: #fff;
+    color: #10BCE9;
+    text-shadow: none;
+    border-radius: 8px;
+  }
+  
+  .coming-soon-btn:hover{
+    background-color: #10BCE9;
+    color: #fff;
+  }
+
+  .fadeIn{
+    animation: fadeIn 1s 1 linear;
+  }
+  
+  @keyframes fadeIn {
+    from{
+      opacity: 0;
+      transform: translate3d(0,100%,0);
+    }
+    to{
+      opacity: 1;
+      transform: none;
+    }
+  }

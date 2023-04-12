@@ -1,7 +1,7 @@
 import React from 'react'
-import icon1 from '../assets/Home2/Vector.png'
-import icon3 from '../assets/Home2/Vector (1).png'
-import icon2 from '../assets/Home2/Vector (2).png'
+import icon1 from '../../assets/Home2/Vector.png'
+import icon3 from '../../assets/Home2/Vector (1).png'
+import icon2 from '../../assets/Home2/Vector (2).png'
 
 const Home2 = () => {
 

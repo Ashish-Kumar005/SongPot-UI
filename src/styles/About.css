@@ -1,0 +1,100 @@
+.about-section2 {
+  height: 600px;
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.about-section3 {
+  background: url("../assets/About/modern-comfortable-workplace-home-there-are-computer-laptop-table\ 1.png")
+    no-repeat center/cover;
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section3-right-side {
+  background: url("../assets/About/Group\ 39953.png") no-repeat center/contain;
+  width: 600px;
+  height: 500px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  gap: 10px;
+  position: relative;
+  left: 20rem;
+}
+
+.section3-right-side h1 {
+  font-family: "Berlin Sans FB";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 58px;
+  line-height: 68px;
+  color: #fff;
+}
+.section3-right-side p {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #fff;
+}
+.section3-text-wrap {
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.view-games-btn {
+  position: static;
+}
+
+.about-section4 {
+  background: url("../assets/About/Rectangle\ 39.png") no-repeat center/cover;
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section4-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 70px;
+  width: 70%;
+}
+
+.section4-left-side {
+  color: #fff;
+}
+
+.section4-left-side h1 {
+  font-family: "Berlin Sans FB";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 58px;
+  line-height: 68px;
+  text-transform: capitalize;
+  margin-bottom: 40px;
+}
+
+.section4-left-side p {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+}
+
+.section4-right-side img {
+  width: 544px;
+}

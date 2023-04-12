@@ -1,47 +1,69 @@
 .header {
   width: 100%;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  padding: 12px;
-  position: fixed;
-  z-index: 10;
+  padding: 15px;
   background: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-container {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-link {
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-logo {
   margin-top: 20px;
-  height: 92px;
+  height: 100%;
 }
 
-.header .header-logo{
-  margin-left: 70px;
+.nav-right-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-
 
 .navBar {
-  width: 50%;
+  width: 100%;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
 }
+
 .navLinks {
   display: flex;
-  width: 70%;
+  width: 75%;
   justify-content: space-between;
 }
 
-.navLinks li{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.navLinks li a {
+.navLinks a {
   font-family: "Berlin Sans FB";
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 26px;
   color: #ffffff;
+}
+
+.navLinks a:hover,
+.navLinks a:focus {
+  color: #f8be17;
+}
+
+.contact-btn-box {
+  position: relative;
+  left: -60px;
+  width: 180px;
 }
 
 .contactBtn {
@@ -53,4 +75,8 @@
   background: #f8be17;
   color: #ffffff;
   padding: 12px 30px;
+}
+
+.contactBtn:hover {
+  background-color: #10bce9;
 }

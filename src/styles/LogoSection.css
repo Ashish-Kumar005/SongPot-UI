@@ -1,0 +1,17 @@
+.logo-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.logo-box{
+  height: 100px;
+  background: #0E0E0E;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid rgba(16, 188, 233,.2);
+  padding: 20px 60px;
+}

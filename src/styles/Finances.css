@@ -1,0 +1,88 @@
+/* *************************** */
+/********** SECTION-2 **********/
+/* *************************** */
+
+.finance-section2 {
+  background-color: #000;
+  padding: 100px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.finance-section2-right-side {
+  position: relative;
+  left: -115px;
+  width: 400px;
+}
+
+.finance-section2-right-side h1 {
+  font-family: "Berlin Sans FB";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 58px;
+  line-height: 78px;
+  color: #fff;
+  text-transform: capitalize;
+}
+
+.songPot-screenshot {
+  position: relative;
+  left: -180px;
+  bottom: -87px;
+}
+
+/* *************************** */
+/********** SECTION-3 **********/
+/* *************************** */
+.finance-section3 {
+  background-color: #000;
+  padding: 100px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.finance-section3-container {
+  display: flex;
+  width: 65%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.color {
+  color: #fff;
+}
+
+.hidden {
+  display: none;
+}
+
+.finance-section3-right-container {
+  width: 500px;
+  height: 400px;
+}
+
+.quickee-bg {
+  width: 480px;
+  height: 260px;
+  border: 5px solid #10bce9;
+}
+
+.song-pot-bg {
+  position: relative;
+  left: -120px;
+  top: -100px;
+  border: 5px solid #f8be17;
+}
+
+/* *************************** */
+/********** SECTION-4 **********/
+/* *************************** */
+.finance-section4 {
+  background-color: #000;
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

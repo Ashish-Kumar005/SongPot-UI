@@ -1,0 +1,34 @@
+.announcement-section2,
+.announcement-section3,
+.announcement-section4,
+.announcement-section5
+{
+  background-color: #151719;
+  padding: 100px 0 100px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.announcement-section3{
+  padding: 0 0 100px 0;
+}
+
+.announcement-section4{
+  background: url('../assets/Announcement/Rectangle\ 92.png') no-repeat center/cover;
+}
+.announcement-section5{
+  background-color: #000;
+}
+
+.video-section {
+  width: 60%;
+  height: 650px;
+}
+
+.panda-video {
+  width: 100%;
+  height: 100%;
+  border-radius: 30px;
+  object-fit: cover;
+}

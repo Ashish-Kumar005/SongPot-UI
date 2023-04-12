@@ -1,15 +1,15 @@
-import React from 'react'
-import ratingStars from "../assets/Home6/Group 8780.png";  
+import React from "react";
+import ratingStars from "../../assets/Home6/Group 8780.png";
+import { HashLink } from "react-router-hash-link";
 
 const GameSectionLeftSide = ({game}) => {
   return (
     <>
-        {
-          game.map((item, index) => {
-            return (
-              <div className="home6-left-side" key={index}>
+      {game.map((item, index) => {
+        return (
+          <div className="home6-left-side" key={index} >
             <div>
-              <img src={item.img} alt="song-pot-wallpaper" />
+              <img src={item.img} alt={item.heading} className="home6-left-img"/>
             </div>
             <div className="home6-left-text-wrapper">
               <div className="game-name-container">
@@ -34,18 +34,17 @@ const GameSectionLeftSide = ({game}) => {
                 </div>
               </div>
               <div className="short-description">
-                <p>
-                  {item.shortDescription}
-                </p>
+                <p>{item.shortDescription}</p>
               </div>
-              <button className="download-btn btn">Download Now</button>
+              <HashLink to={"/game-unfold"}>
+                <button className="download-btn btn">Download Now</button>
+              </HashLink>
             </div>
           </div>
-            )
-          })
-        }
+        );
+      })}
     </>
-  )
-}
+  );
+};
 
-export default GameSectionLeftSide
+export default GameSectionLeftSide;

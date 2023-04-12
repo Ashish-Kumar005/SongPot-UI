@@ -1,10 +1,10 @@
 import React, { useState } from "react";
-import "../styles/Home.css";
+import "../../styles/Home.css";
 import GameSectionLeftSide from "./GameSectionLeftSide";
-import songPotWallpaper from "../assets/Home6/Rectangle 57 (1).png";
-import quickeeImage from '../assets/Home6/quickee-image.png'
-import rainGameImage from '../assets/Home6/rain-game-image.png'
-import seinFeldImage from '../assets/Home6/sainfeld-image.png'
+import songPotWallpaper from "../../assets/Home6/Rectangle 57 (1).png";
+import quickeeImage from '../../assets/Home6/quickee-image.png'
+import rainGameImage from '../../assets/Home6/rain-game-image.png'
+import seinFeldImage from '../../assets/Home6/sainfeld-image.png'
 
 const Games = () => {
   const [displayGame, setDisplayGame] = useState(4);
@@ -86,24 +86,28 @@ const Games = () => {
             shortDescription : `Sed vulputate odio ut enim blandit volutpat maecenas volutpat blandit. Pellentesque sit amet porttitor eget dolor morbi non arcu. Sed viverra tellus in hac habitasse platea dictumst vestibulum rhoncus. Placerat vestibulum lectus mauris ultrices eros in cursus. Neque aliquam vestibulum morbi.`
         },
     ]
+
+    
   return (
     <>
-      {displayGame === 1 ? <GameSectionLeftSide game = {gameDescription1}/> : displayGame === 2 ? <GameSectionLeftSide game = {gameDescription2}/> : displayGame === 3 ? <GameSectionLeftSide game = {gameDescription3}/> : <GameSectionLeftSide game = {gameDescription4}/>}
+      {displayGame === 1 ? <GameSectionLeftSide game = {gameDescription1} /> : displayGame === 2 ? <GameSectionLeftSide game = {gameDescription2} /> : displayGame === 3 ? <GameSectionLeftSide game = {gameDescription3}/> : <GameSectionLeftSide game = {gameDescription4}/>}
       <div className="home6-right-side">
         {games.map((game, index) => {
           return (
             <button
               key={index} title="Click For Expand"
               className="game-section-list"
-              onClick={() => setDisplayGame(game.id)}
+              onClick={() => {setDisplayGame(game.id)}}
             >
               <div className={`game-list ${game.addClass}`}>
                 <p>{game.title}</p>
               </div>
             </button>
+           
           );
         })}
       </div>
+      
     </>
   );
 };

@@ -1,0 +1,56 @@
+.privacy-section2 {
+  width: 100%;
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rules-container{
+    margin: 100px 0;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.privacy-text-box{
+    color: #fff;
+    text-align: left;
+}
+
+.privacy-heading {
+  font-family: "Berlin Sans FB";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 38px;
+  line-height: 48px;
+  margin-bottom: 30px;
+  text-transform: capitalize;
+}
+
+.privacy-paragraph, .rules-list-item {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+
+/* privacy rules */
+
+.order-list{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top : 16px;
+    margin-left: 30px;
+}
+
+.rules-list-item{
+    list-style: decimal;
+    margin: 3px 0;
+}

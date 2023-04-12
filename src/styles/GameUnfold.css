@@ -1,0 +1,9 @@
+.unfold-section{
+    padding: 100px 0 100px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    background: url('../assets/GameUnfold/Rectangle\ 92.png') no-repeat center/cover;
+}

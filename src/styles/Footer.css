@@ -1,0 +1,194 @@
+.footer {
+  background: url("../assets/Footer/Rectangle\ 21.png") no-repeat center/cover;
+  padding: 100px 0 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-section1 {
+  width: 70%;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.footer-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.footer-about-us-section {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  height: 300px;
+}
+
+.footer-about-us-section h3 {
+  font-family: "Berlin Sans FB";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 34px;
+  text-transform: capitalize;
+}
+
+.footer-about-us-section p {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #aaaaaa;
+}
+
+.email-box {
+  background: rgba(20, 24, 28, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 20px;
+  border: 1px solid #3d3b3b;
+  width: 100%;
+}
+
+.email-box input {
+  background: transparent;
+  border: none;
+  width: 100%;
+  padding: 10px 0;
+  color: #fff;
+  font-size: 16px;
+}
+
+.email-box input:focus {
+  border: none;
+  outline: none;
+  letter-spacing: 1px;
+}
+
+input::placeholder {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 200;
+  color: #fff;
+  opacity: 0.5;
+  font-size: 18px;
+  line-height: 26px;
+  text-transform: capitalize;
+}
+
+.email-box img {
+  height: 14px;
+}
+
+.footer-column {
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  height: 100%;
+}
+
+.footer-column-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.footer-column-container h3,
+.footer-contact-section h4 {
+  font-family: "Berlin Sans FB";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 34px;
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.footer-links a,
+.footer-contact-section p,
+.copyright-section a,
+.copyright-section p {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #aaaaaa;
+  text-transform: capitalize;
+}
+
+.footer-links a:hover,
+.footer-links a:focus {
+  color: #f8be17;
+}
+
+.footer-contact-section {
+  width: 15%;
+  display: flex;
+  gap: 30px;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.footer-contact-section h4 {
+  font-size: 24px;
+  line-height: 26px;
+  margin-bottom: 10px;
+}
+
+.footer-contact-section p {
+  line-height: 26px;
+}
+
+.horizontal-line {
+  background-color: #222222;
+  height: 1px;
+  width: 100%;
+  margin-top: 65px;
+}
+
+.copyright-section {
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+
+}
+
+.copyright-section p {
+  line-height: 26px;
+}
+
+.copyright-section span {
+  color: #f8be17;
+  text-transform: capitalize;
+}
+
+.copyright-section a {
+  color: #f8be17;
+  line-height: 26px;
+  margin-left: 5px;
+}
+
+.copyright-section a:hover{
+  color: #10bce9;
+}

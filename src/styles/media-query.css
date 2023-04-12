@@ -1,0 +1,723 @@
+@media screen and (max-width: 1400px) {
+  /* ***************************** */
+  /* ********** HEADER ************ */
+  /* ***************************** */
+  .nav-container {
+    width: 90%;
+  }
+
+  /* ***************************** */
+  /* ********** HOME1 ************ */
+  /* ***************************** */
+
+  .home1-left-side {
+    width: 600px;
+  }
+
+  /* ***************************** */
+  /* ********** HOME6 ************ */
+  /* ***************************** */
+
+  .home6-container {
+    width: 98%;
+  }
+
+  .home6-left-side {
+    width: 70%;
+  }
+
+  .home6-left-side {
+    padding: 15px;
+  }
+}
+
+/***********************/
+/*********1250px**********/
+/***********************/
+
+@media screen and (max-width: 1250px) {
+  /* * {
+    overflow-y: hidden;
+  } */
+
+  /* ***************************** */
+  /* ********** HEADER ************ */
+  /* ***************************** */
+
+  .nav-container {
+    width: 95%;
+  }
+
+  .navBar {
+    justify-content: space-evenly;
+  }
+
+  .navLinks {
+    width: 100%;
+    justify-content: space-evenly;
+  }
+
+  .contact-btn-box {
+    left: 0;
+  }
+
+  .home2 {
+    flex-wrap: wrap;
+  }
+
+  /* ***************************** */
+  /* ********** HOME1 ************ */
+  /* ***************************** */
+
+  .home1-left-side {
+    width: 530px;
+  }
+
+  .home1-left-side .left-main-heading {
+    font-size: 58px;
+  }
+
+  .home1-right-side img {
+    height: 380px;
+    width: 400px;
+  }
+
+  /* ***************************** */
+  /* ********** HOME4 ************ */
+  /* ***************************** */
+
+  /* **** UPPER SECTION ****** */
+
+  .home4-upper-section {
+    width: 90%;
+  }
+
+  .home4-text-wrapper {
+    width: 70%;
+  }
+
+  /* **** LOWER SECTION ****** */
+
+  .home4-lower-text-wrapper {
+    position: absolute;
+    right: 0;
+    width: 48%;
+    top: 0;
+    margin-left: 5px;
+  }
+
+  .lower-game5 {
+    top: 0;
+    left: 0;
+  }
+
+  /* ***************************** */
+  /* ********** HOME5 ************ */
+  /* ***************************** */
+
+  .home5 {
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .home5-left-side {
+    width: 100%;
+  }
+
+  .panda {
+    width: 100%;
+  }
+
+  .home5-right-side {
+    width: 100%;
+    padding: 0 100px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  /* ***************************** */
+  /* ********** HOME6 ************ */
+  /* ***************************** */
+
+  .home6-left-side {
+    padding: 5px;
+    align-items: center;
+  }
+
+  .home6-left-img {
+    height: 400px;
+  }
+
+  .home6-left-text-wrapper {
+    gap: 8px;
+  }
+
+  .game-name-container {
+    padding: 15px;
+    width: 200px;
+  }
+
+  .download-btn {
+    width: 80%;
+  }
+
+  /* ***************************** */
+  /* ********** HOME7 ************ */
+  /* ***************************** */
+
+  .video-upper-box,
+  .video-lower-box {
+    font-size: 20px;
+  }
+
+  .video-box {
+    height: 300px;
+  }
+
+  .video-title-box {
+    height: 60px;
+  }
+
+  /* ***************************** */
+  /* ********** HOME8 ************ */
+  /* ***************************** */
+
+  .home8 {
+    overflow-x: hidden;
+  }
+
+  .home8-container {
+    width: 80%;
+  }
+
+  .home8-songPot-screen {
+    height: 400px;
+  }
+
+  .home8-game-text-wrapper {
+    width: 35%;
+  }
+
+  .home8-game-heading {
+    font-size: 48px;
+    width: 400px;
+  }
+  .quickee-loading-wallpaper {
+    right: 40px;
+  }
+
+  .home8-quickee-screen {
+    height: 300px;
+  }
+
+  /* ***************************** */
+  /* ********** HOME9 ************ */
+  /* ***************************** */
+
+  .home9::before {
+    border-right-width: 40rem;
+  }
+
+  .home9 {
+    padding: 50px 0;
+  }
+
+  .home9::after {
+    border-left-width: 40rem;
+  }
+
+  .social-handles-wrapper {
+    margin: 0 100px;
+  }
+
+  /* ***************************** */
+  /* ********** HOME10 ************ */
+  /* ***************************** */
+
+  .home10 h1 {
+    font-size: 68px;
+  }
+
+  .qna-container {
+    margin: 60px 0;
+  }
+
+  .question-answer-wrapper {
+    width: 750px;
+  }
+
+  .question h2 {
+    font-size: 28px;
+  }
+
+  /* ***************************** */
+  /* ********** Logo-Section ************ */
+  /* ***************************** */
+  .logoSection-container {
+    padding: 60px 0;
+  }
+
+  /* ***************************** */
+  /* ********** FOOTER ************ */
+  /* ***************************** */
+  .footer {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .footer-section1 {
+    width: 90%;
+  }
+
+  .horizontal-line {
+    margin: 20px 0;
+  }
+
+  .copyright-section {
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  /* ***************************** */
+  /* ********** HOME6 ************ */
+  /* ***************************** */
+
+  .home6-container {
+    display: none;
+  }
+
+  .home6-carousel-container {
+    display: block;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* ***************************** */
+  /* ********** HOME7 ************ */
+  /* ***************************** */
+
+  .home7 {
+    padding: 50px 0;
+  }
+  .home7-container {
+    align-items: center;
+  }
+
+  .home7-video-section {
+    flex-direction: column;
+  }
+}
+
+/***********************/
+/*********992px**********/
+/***********************/
+
+@media screen and (max-width: 992px) {
+  /* ***************************** */
+  /* ********** HEADER ************ */
+  /* ***************************** */
+
+  .nav-right-container {
+    display: none;
+  }
+
+  .home1-right-side img {
+    height: 380px;
+    width: 300px;
+  }
+
+  /* ***************************** */
+  /* ********** HOME1 ************ */
+  /* ***************************** */
+
+  .home1 {
+    height: 600px;
+  }
+
+  .home1-container {
+    top: -30px;
+  }
+
+  .home1-left-side {
+    width: 430px;
+  }
+
+  .home1-left-side .left-main-heading {
+    line-height: 60px;
+    font-size: 48px;
+  }
+
+  .home1-left-btn {
+    position: static;
+  }
+
+  .home3-left-side {
+    display: flex;
+    align-items: center;
+  }
+
+  .home3-quickeeImage {
+    height: 355px;
+  }
+
+  .home3-funrImage {
+    width: 250px;
+  }
+
+  .home3-right-heading {
+    font-size: 48px;
+  }
+
+  /* ***************************** */
+  /* ********** HOME4 ************ */
+  /* ***************************** */
+
+  /* **** UPPER SECTION ****** */
+
+  .upper-right-side {
+    height: 330px;
+  }
+
+  .upper-right-side .img1 {
+    height: 300px;
+  }
+
+  .upper-right-side .img2 {
+    position: absolute;
+    bottom: -80px;
+    left: -50px;
+    height: 220px;
+  }
+
+  .home4-lower-section {
+    width: 90%;
+  }
+
+  /* ***************************** */
+  /* ********** HOME8 ************ */
+  /* ***************************** */
+
+  .home8{
+    justify-content: center;
+    overflow: hidden;
+  }
+
+  .home8-container{
+    gap: 15px;
+  }
+
+
+  .home8-songPot-screen{
+    height: 350px;
+  }
+
+  .quickee-loading-wallpaper{
+    right: 0;
+  }
+  /* ***************************** */
+  /* ********** HOME9 ************ */
+  /* ***************************** */
+
+  .home9::before {
+    border-right-width: 30rem;
+  }
+
+  .home9::after {
+    border-left-width: 30rem;
+  }
+  /* ***************************** */
+  /* ********** HOME10 ************ */
+  /* ***************************** */
+
+  .qna-container {
+    gap: 0;
+  }
+
+  .home10 h1 {
+    font-size: 48px;
+  }
+
+  .question-answer-wrapper {
+    width: 600px;
+  }
+
+  .question h2 {
+    font-size: 24px;
+  }
+
+  /* ***logo-section**** */
+
+  .logo-container {
+    gap: 18px;
+  }
+
+  .logo-box {
+    height: 70px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+
+  .logo-box img {
+    width: 190px;
+  }
+
+  /* ***************************** */
+  /* ********** FOOTER ************ */
+  /* ***************************** */
+
+  .footer {
+    padding: 50px 0 30px 0;
+  }
+  .footer-wrapper {
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+  }
+
+  .footer-about-us-section {
+    width: 100%;
+    height: 220px;
+  }
+
+  .email-box {
+    padding: 6px 20px;
+    width: 100%;
+  }
+
+  .footer-column {
+    width: 45%;
+  }
+
+  .footer-contact-section {
+    width: 30%;
+  }
+}
+
+/* ******************** */
+/* *******768px********* */
+/* ******************** */
+
+@media screen and (max-width: 768px) {
+  .home1 {
+    height: 500px;
+  }
+
+  .home1-container {
+    top: 0;
+  }
+
+  .home1-left-side .left-main-heading {
+    font-size: 40px;
+    line-height: 60px;
+  }
+
+  .home1-left-side {
+    margin: 0;
+  }
+
+  .home1-left-btn {
+    position: static;
+    margin-top: 5px;
+  }
+
+  .home1-right-side img {
+    height: 350px;
+    width: 250px;
+  }
+
+  /* ******************** */
+  /* *******HOME2********* */
+  /* ******************** */
+
+  .home2 {
+    padding: 80px 0;
+    gap: 80px;
+  }
+}
+
+@media screen and (max-width: 690px) {
+  /* ******************** */
+  /* *******HOME1********* */
+  /* ******************** */
+
+  .home1 {
+    height: auto;
+    align-items: flex-start;
+  }
+  .home1-container {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 30px;
+    width: 100%;
+  }
+
+  .home1-left-side {
+    width: 100%;
+    height: auto;
+    gap: 20px;
+  }
+
+  .home1-left-side .left-main-heading {
+    font-size: 48px;
+    margin: 5px 0;
+  }
+
+  .home1-left-side .left-para {
+    font-family: "DM Sans";
+    font-size: 20px;
+  }
+
+  .home1-right-side {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .home1-right-side img {
+    width: 100%;
+  }
+
+  /* ******************** */
+  /* *******HOME3********* */
+  /* ******************** */
+
+  .home3 {
+    flex-direction: column;
+    align-items: center;
+    padding: 0 0 60px;
+  }
+
+  .home3-left-side {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .home3-quickeeImage {
+    height: auto;
+  }
+
+  .home3-funrImage {
+    position: static;
+    width: auto;
+  }
+
+  .home3-right-side {
+    width: 75%;
+  }
+
+  .home3-right-heading {
+    font-size: 38px;
+  }
+
+  .home3-list-item {
+    font-size: 19px;
+  }
+
+  /* ******************** */
+  /* *******HOME4********* */
+  /* ******************** */
+
+  .home4 {
+    gap: 20px;
+  }
+
+  .home4-upper-section,
+  .home4-lower-section {
+    flex-direction: column;
+    padding: 10px;
+    height: auto;
+    gap: 20px;
+  }
+
+  .home4-text-wrapper {
+    width: 100%;
+    height: auto;
+  }
+
+  .home4-text-wrapper a {
+    width: 100%;
+  }
+
+  .home4-btn {
+    width: 50%;
+    font-size: 20px;
+  }
+
+  .sub-paragraph,
+  .paragraph {
+    font-size: 21px;
+    line-height: 30px;
+  }
+
+  .upper-right-side {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    gap: 20px;
+    height: auto;
+  }
+
+  .upper-right-side .img1 {
+    position: static;
+  }
+
+  .upper-right-side .img2 {
+    left: 55%;
+    bottom: -2px;
+  }
+
+  .lower-left-section {
+    width: 100%;
+    position: static;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+
+  .lower-game5 {
+    position: static;
+    width: 70%;
+  }
+
+  .lower-game6 {
+    position: static;
+    width: 70%;
+  }
+
+  .home4-lower-text-wrapper {
+    position: static;
+  }
+
+  /* ***************************** */
+  /* ********** HOME8 ************ */
+  /* ***************************** */
+
+  .home8-container{
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+  }
+
+  .home8-game-text-wrapper{
+    width: 100%;
+  }
+
+  .home8-game-heading,.quickee-loading-wallpaper {
+    position: static;
+  }
+
+  .left-game-icon, .right-game-icon{
+    display: none;
+  }
+}
