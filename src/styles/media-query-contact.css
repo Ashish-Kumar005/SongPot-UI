@@ -1,0 +1,99 @@
+/***********************/
+/*********1400px**********/
+/***********************/
+
+@media screen and (max-width: 1400px) {
+  .contact-section-2::before {
+    right: 2%;
+  }
+  .contact-section2-container {
+    border-radius: 0;
+    width: 95%;
+    padding: 1% 2%;
+  }
+  .contact-section-2::after {
+    left: 2%;
+  }
+
+  .contact-section2-left-side {
+    margin: 4% 1%;
+    width: 40%;
+  }
+
+  .contact-section2-right-side {
+    width: 60%;
+  }
+
+  .contact-icon-wrapper {
+    width: 100%;
+  }
+
+  .location {
+    width: 100%;
+  }
+}
+
+/* ******************** */
+/* *******768px********* */
+/* ******************** */
+
+@media screen and (max-width: 768px) {
+  .contact-section2-container {
+    flex-direction: column;
+  }
+
+  .contact-section2-left-side,
+  .contact-section2-right-side {
+    width: 100%;
+  }
+
+  .connect-box {
+    width: 50%;
+  }
+
+  .location-box {
+    width: 70%;
+  }
+}
+
+/* ***************************** */
+/* ********** 428PX ************ */
+/* ***************************** */
+
+@media screen and (max-width: 428px) {
+  .contact-section2-right-side {
+    margin: 20px 0;
+  }
+
+  .form-row {
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  #contact-heading {
+    font-size: 48px;
+  }
+
+  .contact-section2-left-side h1 {
+    font-size: 48px;
+  }
+}
+
+/* ***************************** */
+/* ********** 290PX ************ */
+/* ***************************** */
+
+@media screen and (max-width: 290px) {
+  .contact-section-2::after {
+    width: 140px;
+    height: 170px;
+    left: 1%;
+  }
+
+  .contact-section-2::before{
+    right: 1%;
+    width: 140px;
+    height: 170px;
+  }
+}

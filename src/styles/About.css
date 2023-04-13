@@ -1,16 +1,17 @@
 .about-section2 {
-  height: 600px;
   background-color: #000;
+  padding: 100px 0;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 50px;
+  flex-wrap: wrap;
 }
 
 .about-section3 {
   background: url("../assets/About/modern-comfortable-workplace-home-there-are-computer-laptop-table\ 1.png")
     no-repeat center/cover;
-  height: 700px;
+  padding: 100px 0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -59,7 +60,7 @@
 
 .about-section4 {
   background: url("../assets/About/Rectangle\ 39.png") no-repeat center/cover;
-  height: 700px;
+  padding: 100px 0;
   display: flex;
   justify-content: center;
   align-items: center;

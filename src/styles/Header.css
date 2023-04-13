@@ -33,6 +33,14 @@
   align-items: center;
 }
 
+.ham-burger{
+  display: none;
+}
+
+.not-show{
+  height: 0;
+}
+
 .navBar {
   width: 100%;
   display: flex;

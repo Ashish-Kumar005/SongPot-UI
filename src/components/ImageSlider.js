@@ -18,9 +18,8 @@ const ImageSlider = ({ carouselContent }) => {
         showArrows={false}
         showStatus={false}
         showThumbs={false}
-        interval={1000}
+        interval={3000}
         emulateTouch={true}
-        // onChange={handleChange}
       >
         {carouselContent.map((slide, index1) => {
             const img = slide.imgLink

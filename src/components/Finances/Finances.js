@@ -30,7 +30,7 @@ const Finance = () => {
   ]
 
   return (
-    <div>
+    <div id="finances">
       <TopSection title={"Finances"} />
 
       <div className="finance-section2">

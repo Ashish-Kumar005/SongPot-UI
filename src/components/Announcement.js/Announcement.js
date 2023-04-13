@@ -92,8 +92,8 @@ const Announcement = () => {
   ]
 
   return (
-    <div>
-      <TopSection title={"Announcement"} />
+    <div id="announcement">
+      <TopSection title={"Announcement"} name = {'announcement-heading'} />
 
       <div className="announcement-section2">
         <ImageSlider carouselContent = {carouselCocainPandaContent}/>

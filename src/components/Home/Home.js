@@ -37,8 +37,6 @@ import pandaVideo from "../../assets/Home5/panda-video.mp4";
 import { HashLink } from "react-router-hash-link";
 import Home7VideoSection from "./Home7VideoSection";
 
-import '../../../node_modules/react-responsive-carousel/lib/styles/carousel.min.css'
-import MediaCarousel from "../MediaCarousel";
 
 
 const Home = () => {
@@ -112,8 +110,16 @@ const Home = () => {
       urna id.`,
     },
   ];
+
+
+
+
+
+
+
+
   return (
-    <div>
+    <div id="home">
       {/* Home1 */}
       <div className="home1">
       <Header className = "home-header"/>
@@ -199,9 +205,6 @@ const Home = () => {
       {/* HOME6 */}
       <div className="home6">
         <h1 className="home6-heading">Released Games</h1>
-        <div className="home6-carousel-container">
-          <MediaCarousel/>
-          </div>
         <div className="home6-container">
         <Games />
         </div>
@@ -258,7 +261,7 @@ const Home = () => {
       <div className="home10">
         <div className="qna-container">
         <h1>question & answers</h1>
-        <div>
+        <div className="question-answer-container">
           <QuestionAndAnswer  questionsAnswersArray={questionsAnswersArray}/>
           <QuestionAndAnswer  questionsAnswersArray={questionsAnswersArray}/>
           <QuestionAndAnswer  questionsAnswersArray={questionsAnswersArray}/>

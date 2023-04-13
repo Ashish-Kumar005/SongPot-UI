@@ -9,7 +9,7 @@ const Contact = () => {
     document.title = "Contact Us"
   return (
     <div className="contact" id="contact-us">
-      <TopSection title={"Contact Us"} />
+      <TopSection title={"Contact Us"} name={'contact-heading'} />
 
       {/* SECTION-2 */}
       <div className="contact-section-2">

@@ -1,9 +1,9 @@
 import React from "react";
 
 const VideoSection = ({ gameBox }) => {
-  return <div>{gameBox.map((element, index) => {
+  return <div className="game-container">{gameBox.map((element, index) => {
     return (
-        <div className='game-container' key={index}>
+        <div className='game-box' key={index}>
         <img className='game-img' src={element.img} alt="Game1" />
         <h2 className='game-heading'>{element.title}</h2>
         <p className='game-description'>{element.description}</p>

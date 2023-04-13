@@ -1,0 +1,41 @@
+/***********************/
+/*********1250px**********/
+/***********************/
+
+@media screen and (max-width: 1250px){
+    .carousel-text-container{
+        width: 90%;
+    }
+}
+
+/* ******************** */
+/* *******792px********* */
+/* ******************** */
+
+@media screen and (max-width: 792px){
+    .carousel-width-container{
+        width: 90%;
+    }
+
+    .carousel-container{
+        height: auto;
+    }
+
+    .carousel-text-container{
+        background: rgba(0, 0, 0, .4);
+        padding-top: 20px;
+        padding-bottom: 20px;
+        border-radius: 10px;
+    }
+}
+
+/* ******************** */
+/* *******290px********* */
+/* ******************** */
+
+@media screen and (max-width: 290px){
+    .carousel-text-container{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}

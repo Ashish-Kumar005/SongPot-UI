@@ -106,6 +106,10 @@
   padding: 100px 10px;
 }
 
+.home2{
+  flex-wrap: wrap;
+}
+
 .home2-box {
   background: url("../assets/Home2/Rectangle\ 5.png") no-repeat center;
   height: 263px;
@@ -356,7 +360,7 @@
   overflow: auto;
 }
 
-.game-container {
+.game-box {
   display: flex;
   flex-direction: column;
   gap: 15px;
@@ -420,6 +424,7 @@
   font-weight: 400;
   font-size: 58px;
   text-transform: capitalize;
+  text-align: center;
 }
 
 .home6-container {
@@ -503,6 +508,7 @@
   font-size: 15px;
   line-height: 23px;
   color: #d9c2c2;
+  text-align: center;
 }
 
 .short-description {
@@ -511,6 +517,7 @@
 
 .short-description p {
   color: #fff;
+  text-align: initial;
 }
 
 .download-btn {
@@ -597,6 +604,7 @@
   font-size: 58px;
   line-height: 68px;
   color: #fff;
+  text-align: center;
 }
 
 .home7-video-section {

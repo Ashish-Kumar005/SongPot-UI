@@ -26,6 +26,10 @@ import './styles/PrivacyPolicy.css'
 import './styles/Contact.css'
 import './styles/ImageSlider.css'
 import './styles/media-query.css'
+import './styles/media-query-about.css'
+import './styles/media-query-game-unfold.css'
+import './styles/media-query-finance.css'
+import './styles/media-query-contact.css'
 
 function App() {
   return (

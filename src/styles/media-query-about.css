@@ -1,0 +1,154 @@
+/* ***************************** */
+  /* ********** 1250px ************ */
+  /* ***************************** */
+
+  @media screen and (max-width : 1250px) {
+    .section3-right-side{
+        left: 10rem;
+    }
+
+    .section4-container{
+        width: 90%;
+        gap: 15px;
+    }
+
+    .section4-left-side{
+        width: 55%;
+    }
+
+    .section4-right-side{
+        width: 50%;
+    }
+
+    .section4-right-side img{
+        width: 100%;
+    }
+
+
+  }
+
+/* ***************************** */
+  /* ********** 1024px ************ */
+  /* ***************************** */
+
+  @media screen and (max-width : 1024px) {
+    /* .section3-right-side{
+        left: 10rem;
+    } */
+  }
+
+/* ***************************** */
+  /* ********** 992px ************ */
+  /* ***************************** */
+
+  @media screen and (max-width : 992px) {
+    .section3-right-side{
+        position: static;
+    }
+
+    .section4-container{
+        flex-direction: column-reverse;
+    }
+
+    .section4-left-side{
+        width: 100%;
+    }
+
+    .section4-right-side{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .section4-right-side img{
+        width: 80%;
+    }
+  }
+
+/* ***************************** */
+  /* ********** 690px ************ */
+  /* ***************************** */
+
+  @media screen and (max-width : 690px) {
+    .section3-right-side{
+        width: 95%;
+        padding: 10px 20px;
+        justify-content: center;
+    }
+
+    .section3-right-side h1{
+        font-size: 45px;
+        width: 100%;
+    }
+
+    .section3-text-wrap{
+        height: 60%;
+        justify-content: space-around;
+    }
+
+    .section3-right-side p {
+        font-size: 18px;
+    }
+
+    .section1 h1{
+        font-size: 70px;
+    }
+
+  }
+
+/* ***************************** */
+  /* ********** 490px ************ */
+  /* ***************************** */
+
+  @media screen and (max-width : 490px){
+
+    .about-section3{
+        padding: 40px 0;
+    }
+
+    .section3-right-side{
+        background: rgba(0, 0, 0, .7);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        gap: 40px;
+        padding: 20px;
+        height: auto;
+    }
+    .section3-right-side h1{
+        font-size: 38px;
+        line-height: initial;
+    }
+
+    .section3-text-wrap{
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .view-games-btn{
+        width: 100%;
+    }
+
+    .about-section4{
+        padding: 50px 0;
+    }
+
+    .section4-left-side h1{
+        font-size: 48px;
+        margin-bottom: 10px;
+    }
+  }
+
+  /* ***************************** */
+/* ********** 290PX ************ */
+/* ***************************** */
+
+@media screen and (max-width: 290px){
+    .section4-left-side h1{
+        font-size: 38px;
+        line-height: 48px;
+    }
+}
