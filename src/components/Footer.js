@@ -59,13 +59,13 @@ const FooterColumn = () => {
     <div className="footer-column-container">
       <h3>Explore</h3>
       <div className="footer-links">
-        <HashLink to={"/#home"}>Home</HashLink>
-        <HashLink to={"/about/#about"}>About Us</HashLink>
-        <HashLink to={"/game-unfold/#game-unfold"}>Game Unfold</HashLink>
-        <HashLink to={"/announcements/#announcement"}>Announcements</HashLink>
-        <HashLink to={"/finances/#finances"}>Finances</HashLink>
-        <HashLink to={"/privacy-policy/#privacy"}>Privacy Policy</HashLink>
-        <HashLink to={"/contact-us/#contact-us"}>Contact Us</HashLink>
+        <HashLink to={"#home"}>Home</HashLink>
+        <HashLink to={"/about#about"}>About Us</HashLink>
+        <HashLink to={"/game-unfold#game-unfold"}>Game Unfold</HashLink>
+        <HashLink to={"/announcements#announcement"}>Announcements</HashLink>
+        <HashLink to={"/finances#finances"}>Finances</HashLink>
+        <HashLink to={"/privacy-policy#privacy"}>Privacy Policy</HashLink>
+        <HashLink to={"/contact-us#contact-us"}>Contact Us</HashLink>
       </div>
     </div>
   );
